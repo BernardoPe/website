@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("./assets/fonts/Montserrat-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: local("Montserrat Bold"),
+    url("./assets/fonts/Montserrat-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat SemiBold";
+  src: local("Montserrat SemiBold"),
+    url("./assets/fonts/Montserrat-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Italic Bold";
+  src: local("Montserrat Italic Bold"),
+    url("./assets/fonts/Montserrat-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Italic";
+  src: local("Montserrat Italic"),
+    url("./assets/fonts/Montserrat-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Google Sans Bold";
+  src: local("Google Sans Bold"),
+    url("./assets/fonts/ProductSans-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Google Sans Bold Italic";
+  src: local("Google Sans Bold Italic"),
+    url("./assets/fonts/ProductSans-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Motterdam";
+  src: local("Motterdam"),
+    url("./assets/fonts/Motterdam-K74zp.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Google Sans Italic";
+  src: local("Google Sans Italic"),
+    url("./assets/fonts/ProductSans-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Google Sans Medium";
+  src: local("Google Sans Medium"),
+    url("./assets/fonts/ProductSans-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Google Sans Regular";
+  src: local("Google Sans Regular"),
+    url("./assets/fonts/ProductSans-Regular.woff") format("woff");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  --color-primary: #bc3f68;
+  --color-secondary: #150b07;
+  --color-tertiary: #123c69;
+  --color-quaternary: #235c98;
+  --color-bg: #eee2dc;
+  --color-bg-secondary: rgba(208, 144, 144, 0.636);
+  --color-bg-tertiary: #431b09f3;
+  --color-text: #202838;
+}
+
+body {
+  margin: 0;
+  font: 19px / 23px Google Sans Regular, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}

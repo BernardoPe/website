@@ -1,0 +1,55 @@
+.App {
+  min-height: 100vh;
+  text-align: center;
+  background-color: var(--color-bg);
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: var(--color-primary);
+  height: 100%;
+}
+
+.split {
+  display: flex;
+}
+
+.split > div {
+  flex: 1;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.narrow {
+  max-width: 80%;
+}
+
+.font-text {
+  font-family: "Google Sans Regular", sans-serif;
+}
+
+.font-title {
+  font-family: "Google Sans Bold", sans-serif;
+}
+
+.font-subtitle {
+  font-family: "Google Sans Medium", sans-serif;
+}
+
+@media screen and (max-width: 1380px) {
+  .App-content {
+    font-size: calc(10px + 1vmin);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .App-content {
+    font-size: calc(10px + 0.5vmin);
+  }
+}

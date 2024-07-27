@@ -1,0 +1,289 @@
+{
+  "greeting": {
+    "name": "Bernardo Pereira",
+    "position": "Computer Science and Engineering Student",
+    "location": "Lisbon, Portugal"
+  },
+  "about": [
+    "I am a Computer Science and Engineering student at Instituto Superior de Engenharia de Lisboa, with a passion for software development and technology.",
+    "I have experience with programming languages such as Kotlin, Java, C, Python, and JavaScript, and I am familiar with a variety of concepts and tools related to programming.",
+    "Beyond my professional and academic life, I enjoy playing video games, reading, and playing piano."
+  ],
+  "github": "https://github.com/bernardope",
+  "social": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/bernardope",
+      "icon": "fa-brands fa-github",
+      "bg_color": "#24292E"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/bernardope/",
+      "icon": "fa-brands fa-linkedin",
+      "bg_color": "#0077B5"
+    },
+    {
+      "name": "Gmail",
+      "url": "mailto:bernardo.correia.pereira@gmail.com",
+      "icon": "fa-brands fa-google",
+      "bg_color": "#D44638"
+    }
+  ],
+  "currentEducation": "I am currently pursuing a Bachelor's Degree in Computer Science and Engineering at Instituto Superior de Engenharia de Lisboa.",
+  "education": [
+    {
+      "image": "isel.png",
+      "degree": "Bachelor's Degree",
+      "major": "Computer Science and Engineering",
+      "institute": "Instituto Superior de Engenharia de Lisboa | Instituto Politécnico de Lisboa",
+      "duration": "2022 - 2025",
+      "gpa": "16/20",
+      "points": [
+        "Studied concepts of Algorithms and Data Structures, Computer Architecture, Databases, Software Engineering, Computer Networks, Web Development, among others.",
+        "Received a merit scholarship for my first year of studies."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "title": "Programming Languages and Tools",
+      "image": "programming.svg",
+      "reverse": "true",
+      "list": [
+        {
+          "name": "Kotlin",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg"
+        },
+        {
+          "name": "Java",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+        },
+        {
+          "name": "Python",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+        },
+        {
+          "name": "C",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+        },
+        {
+          "name": "Git",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+        },
+        {
+          "name": "GitHub",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+        },
+        {
+          "name": "IntelliJ IDEA",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg"
+        },
+        {
+          "name": "PyCharm",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg"
+        },
+        {
+          "name": "Visual Studio Code",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+        }
+      ],
+      "text": [
+        "I'm familiar with various programming languages, which gives me flexibility in the development of different solutions.",
+        "I'm experienced with version control systems, such as Git and GitHub, and I have used tools like IntelliJ IDEA, PyCharm, and Visual Studio Code for development."
+      ]
+    },
+    {
+      "title": "Web Development",
+      "image": "static_assets.svg",
+      "list": [
+        {
+          "name": "HTML",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+        },
+        {
+          "name": "CSS",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+        },
+        {
+          "name": "Handlebars",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/handlebars/handlebars-original.svg"
+        },
+        {
+          "name": "React",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+        },
+        {
+          "name": "Node.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+        },
+        {
+          "name": "Express",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+        },
+        {
+          "name": "Webpack",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webpack/webpack-original.svg"
+        },
+        {
+          "name": "Postman",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
+        }
+      ],
+      "text": [
+        "I have Developed web applications using HTML, CSS, and JavaScript.",
+        "I am familiar with modern web development frameworks like React for building user interfaces.",
+        "I am familiar with tools like Webpack and Postman for development and testing of web applications."
+      ]
+    },
+    {
+      "title": "Databases and Backend Development",
+      "image": "database.svg",
+      "reverse": "true",
+      "list": [
+        {
+          "name": "PostgreSQL",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+        },
+        {
+          "name": "Elasticsearch",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elasticsearch/elasticsearch-original.svg"
+        },
+        {
+          "name": "Node.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+        },
+        {
+          "name": "Express",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+        }
+      ],
+      "text": [
+        "I have experience with relational and non-relational databases, such as PostgreSQL and MongoDB.",
+        "I have used Node.js and Express.js for RESTful API development, while also using Elasticsearch for storage and search of data."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Musyk",
+      "duration": "Aug. 2023 - Present",
+      "link": "https://github.com/bernardope/musyk",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+        },
+        {
+          "name": "Node.js",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+        }
+      ],
+      "points": [
+        "A discord bot that allows users to play music in voice channels. It was developed using the Discord.js library and the discord-player framework.",
+        "It can play music from Youtube, Spotify, and Soundcloud, and has features like queue management, volume control, and song skipping."
+      ]
+    },
+    {
+      "title": "Access Control System",
+      "duration": "Mar. 2023 - Jun. 2023",
+      "link": "https://github.com/bernardope/accesscontrolsystem",
+      "skills": [
+        {
+          "name": "Kotlin",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg"
+        }
+      ],
+      "points": [
+        "An Access Control System that allows users to access restricted areas via PIN code. This system was developed using VHDL for hardware, and Kotlin for software.",
+        "The system was tested on an Intel DE10-Lite FPGA board."
+      ]
+    },
+    {
+      "title": "Compose Go",
+      "duration": "Sep. 2023 - Jan. 2024",
+      "link": "https://github.com/bernardope/composego",
+      "skills": [
+        {
+          "name": "Kotlin",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg"
+        },
+        {
+          "name": "Jetpack Compose",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+        }
+      ],
+      "points": [
+        "An application that allows users to play the game of Go. This application was developed using Object-Oriented Programming concepts.",
+        "The game logic was implemented in Kotlin, and the graphical UI was implemented using Jetpack Compose. MongoDB was also used to store game states."
+      ]
+    },
+    {
+      "title": "Yamlify",
+      "duration": "Mar. 2024 - Jun. 2024",
+      "link": "https://github.com/bernardope/Yamlify",
+        "skills": [
+            {
+            "name": "Java",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+            },
+            {
+            "name": "Kotlin",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg"
+            }
+        ],
+        "points": [
+            "A simple YAML parser that creates Objects from YAML files.",
+            "Implemented using Reflection through the Reflection API and bytecode generation through the Cojen/Maker library in the JVM.",
+            "Analysis of performance differences between the two approaches with JMH benchmarking."
+        ]
+    },
+    {
+      "title": "Sessions",
+      "duration": "Mar 2024 - Jun 2024",
+      "link": "https://github.com/bernardope/Sessions",
+      "skills": [
+        {
+          "name": "Kotlin",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+        },
+        {
+          "name": "HTML",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+        },
+        {
+          "name": "CSS",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+        }
+      ],
+      "points": [
+        "A multiplayer game session management app featuring an API developed in Kotlin with PostgreSQL for data storage, and a Single Page Application built with HTML, CSS, and JavaScript."
+      ]
+    }
+  ],
+  "resume": "https://www.canva.com/design/DAGD0QOukng/_SdeTb9-pp-zHM5izyuzpA/view?utm_content=DAGD0QOukng&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+}

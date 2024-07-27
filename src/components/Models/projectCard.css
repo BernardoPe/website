@@ -1,0 +1,144 @@
+.project-card {
+  display: flex;
+  font-family: "Google Sans Regular", sans-serif;
+  font-size: 0.8em;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 20em;
+  color: var(--color-tertiary);
+  padding-bottom: 25px;
+}
+
+.project-card-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.project-card-link {
+  text-decoration: none;
+  color: var(--color-tertiary);
+  margin-left: 0.5em;
+  transition: 0.3s;
+}
+
+.project-card-link:hover {
+  color: var(--color-quaternary);
+}
+
+.project-card-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.5em auto;
+  padding: 0;
+}
+
+.project-card-skills img {
+  width: 1em;
+  height: 1em;
+  border-radius: 5px;
+  margin: 0 0.3em 0 0;
+}
+
+.project-card-box {
+  margin: 0.8em;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #b9aeae;
+  text-align: start;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card-head {
+  display: flex;
+  background-color: var(--color-bg-secondary);
+}
+
+.project-card-head-text {
+  text-align: center;
+  margin: 0.5em auto 0;
+  width: 100%;
+}
+
+.project-card-title {
+  font-family: "Google Sans Bold", sans-serif;
+  font-size: 0.8em;
+  line-height: 1.1;
+}
+
+.project-card-subtitle {
+  font-family: "Google Sans Medium", sans-serif;
+  line-height: 1.2;
+  font-size: 0.7em;
+  margin-left: 1em;
+}
+
+.project-card-duration {
+  margin: 0 auto 0 2px;
+  font-size: 0.7em;
+}
+
+.project-card-content {
+  padding: 10px;
+  padding-bottom: 1em;
+}
+
+.project-card-text {
+  font-family: "Google Sans Regular", sans-serif;
+  font-size: 0.6em;
+  color: var(--color-text);
+  line-height: 1.2em;
+  width: 90%;
+  font-weight: 600;
+  margin: 0 auto 10px;
+}
+
+@media (max-width: 768px) {
+  .project-card-head {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .project-card-head-details {
+    font-size: 0.8em;
+  }
+
+  .project-card-title,
+  .project-card-subtitle,
+  .project-card-head-details {
+    margin: 0 auto;
+  }
+
+  .project-card-title {
+    margin: 2px 0.5em 8px 0;
+  }
+
+  .project-card-link {
+    margin: 0;
+  }
+
+  .project-card-skills {
+    justify-content: center;
+  }
+
+  .project-card-head-text {
+    margin: 1em auto 0;
+  }
+
+  .project-card-content {
+    padding: 0.5em 1em 0.5em 1em;
+  }
+
+  .project-card-box {
+    text-align: center;
+  }
+
+  .project-card-text {
+    margin: 0 auto 10px 1em;
+    font-size: 0.7em;
+    line-height: 1.5em;
+  }
+}

@@ -1,0 +1,25 @@
+.footer {
+  position: fixed;
+  width: 100%;
+  background-color: var(--color-bg-secondary);
+  color: white;
+  text-align: start;
+  bottom: 0;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 0.5em;
+  max-width: 80%;
+}
+
+.footer__logo h1 {
+  font-size: 1.8em;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: "Motterdam";
+}

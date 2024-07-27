@@ -1,0 +1,123 @@
+.header {
+  margin: 0 auto;
+  padding: 30px 10px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  text-decoration: none;
+  height: fit-content;
+  border: none;
+  margin: 1em;
+}
+
+.header ul {
+  margin: 1em;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.header .logo-name {
+  font-family: "Motterdam", sans-serif;
+  font-weight: bold;
+  font-size: 1.6em;
+  color: var(--color-primary);
+  margin: 1em;
+}
+
+.logo-name a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.logo-name a:hover {
+  color: var(--color-primary);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: fit-content;
+  align-items: center;
+  color: var(--color-primary);
+  font-size: 0.8em;
+  margin: 0 auto;
+}
+
+.menu-icon {
+  margin-top: 1px;
+}
+
+.menu li {
+  display: inline-flex;
+  list-style: none;
+  position: relative;
+  margin-right: 5px;
+}
+
+.menu li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 3px;
+  width: 0;
+  background-color: var(--color-primary);
+  transition: width 0.3s;
+}
+
+.menu li:hover::after {
+  width: 100%;
+}
+
+.menu li a {
+  display: flex;
+  text-decoration: none;
+  color: var(--color-primary);
+  padding: 0.75em 1em;
+  font-family: "Montserrat Bold", sans-serif;
+}
+
+.menu .menu-item {
+  margin: 0 10px;
+}
+
+.menu .active {
+  margin-top: 3px;
+  border-bottom: 3px solid var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+@media (max-width: 48em) {
+  .header {
+    display: inline;
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .menu li::after {
+    display: none;
+  }
+
+  .header .logo-name {
+    font-size: 28px;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media (max-width: 1380px) {
+  .menu {
+    font-size: 1.2em;
+  }
+}
