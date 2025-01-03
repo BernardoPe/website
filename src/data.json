@@ -192,8 +192,7 @@
         }
       ],
       "points": [
-        "A discord bot that allows users to play music in voice channels. It was developed using the Discord.js library and the discord-player framework.",
-        "It can play music from Youtube, Spotify, and Soundcloud, and has features like queue management, volume control, and song skipping."
+        "A discord bot that allows users to play music in voice channels. It was developed using the Discord.js library and the discord-player framework."
       ]
     },
     {
